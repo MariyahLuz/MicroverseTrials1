@@ -1,0 +1,119 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#nav-bar{
+    
+}
+#nav-bar> ul{
+    margin-top: 15px;
+    margin-left: 150px;
+    list-style-type: circle;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#nav-bar> ul> li {
+    
+    border-right: 1px solid black;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
+}
+
+nav > ul >li >a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    
+}
+nav > ul >li > a:hover{
+    text-decoration: underline;
+}
+nav > ul >li > a:active{
+    text-decoration: underline;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#main > #intro {
+    border: solid 1px white;
+    background: darkviolet;
+    text-align: center;
+    border-radius: 30px;
+    width: 65%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 
+    0 6px 6px rgba(0, 0, 0, 0.23);
+}
+#intro > p{
+    font-size: 27px;
+}
+
+#img-div {
+    background: white;
+    border-radius: 0 10% 0 15%;
+  }
+  #img-div > #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 10% 0 8.75%;
+  }
+  #img-caption {
+    text-align: center;
+  }
+
+  #tribute-info{
+      border: solid 1px darkmagenta;
+      border-radius: 10px;
+      width: 700px;
+      background:violet
+  }
+
+  #tribute-info > ul{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+  }
+
+  #quote {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    background: white;
+    border: solid 1px;
+    border-radius: 10% 0;
+    margin-right: 80px;
+    margin-top: 60px;
+  }
+  #quote > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+  #connect{
+      display: flexbox;
+      flex-direction: column;
+  }
+  #connect > a{
+      display: block;
+      margin-bottom: 20px;
+  }
+#tribute-link{
+    font-size: larger;
+
+}
